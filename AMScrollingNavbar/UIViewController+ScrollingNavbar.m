@@ -411,9 +411,9 @@
         [[self scrollView] setContentOffset:(CGPoint){offset.x, offset.y - delta}];
     } else {
         if (delta > 0) {
-            [[self scrollView] setContentOffset:(CGPoint){offset.x, offset.y - delta - 1}];
+            [[self scrollView] setContentOffset:(CGPoint){offset.x, offset.y - delta - 0}];
         } else {
-            [[self scrollView] setContentOffset:(CGPoint){offset.x, offset.y - delta + 1}];
+            [[self scrollView] setContentOffset:(CGPoint){offset.x, offset.y - delta + 0}];
         }
     }
 }
